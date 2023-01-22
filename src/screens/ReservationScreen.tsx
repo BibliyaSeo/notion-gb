@@ -6,7 +6,6 @@ import ReservationCard from '../components/ReservationCard';
 import ImageCard from '../components/ImageCard';
 import ImageText from '../components/ImageText';
 import {reservationList} from '../data/reservationList';
-// import MemoSticker from '../components/MemoSticker';
 
 export default function ReservationScreen() {
   return (

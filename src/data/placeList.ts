@@ -436,7 +436,7 @@ export const kyotoList = [
       '아라시야마는 대나무숲으로 매우 유명하지만 사실 볼거리가 훨씬 많은 곳이다. 토게츠 다리부터 아다시노 넨부즈치까지 넓은 지역이 모두 사가 아라시야마 관광단지이다. 사용하지 않는 기차길을 개조하여 만든 산과 계곡 사이를 다니는 관광열차 토롯코 열차를 탈 수도 있지만 1~2월 동계에는 운행하지 않는다.',
     worktime: '24시간',
     googleMap: 'https://goo.gl/maps/oUMsii4ZtqTsJWvq5',
-    image: require('../assets/destinations/dotonbori.jpg'),
+    image: require('../assets/destinations/arasiyama.jpg'),
     day: 'Day 4',
     pass: '패스없음',
     memo: `가는 방법!

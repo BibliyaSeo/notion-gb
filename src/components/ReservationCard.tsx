@@ -36,6 +36,7 @@ export default function ReservationCard({
           {memo}
         </Text>
 
+        {/* {(url !== '' || url2 !== '') && } */}
         {url !== '' && (
           <View className="flex-row items-center mb-1 mt-2">
             <MaterialIcons name="launch" size={16} />

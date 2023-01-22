@@ -19,7 +19,7 @@ export default function MemoSticker({
   return (
     <View className={`${bgColor} flex-row items-center py-3 px-3 space-x-2`}>
       <Ionicons name={icon} size={20} color={color} />
-      <Text style={fontSytles.bold} className="text-gray-800">
+      <Text style={fontSytles.bold} className="text-gray-800 text-sm">
         {memo}
       </Text>
     </View>

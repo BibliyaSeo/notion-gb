@@ -1,6 +1,5 @@
 import {View, Text, Image} from 'react-native';
 import React from 'react';
-import {fontSytles} from '../styles/fontStyles';
 import {ScrollView} from 'react-native-gesture-handler';
 import Divider from '../components/Divider';
 import DdayTimer from '../components/DdayTimer';
@@ -13,14 +12,14 @@ import Header from '../components/Header';
 export default function MainScreen() {
   return (
     <View className={`min-h-screen min-w-screen`}>
-      <Header first="O" title="SAKA TREVEL PLAN" />
+      <Header first="O" title="SAKA TRAVEL PLAN" />
       <ScrollView className="px-4 pt-2 bg-white">
         <Divider />
         <DdayTimer />
         <MemoSticker
           bgColor="bg-pink-50"
           icon="heart-circle"
-          memo="가족과 함께하는 오사카, 교토, 고베 여행"
+          memo="성경이네 오사카, 교토, 고베 여행"
           color="#cb0849"
         />
         <ImageCard photo={require('../assets/main_japan.jpg')} />

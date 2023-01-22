@@ -10,21 +10,21 @@ export const dayColors = (day: string) => {
     : day === 'Day 5'
     ? 'bg-green-100'
     : day === 'Day 6'
-    ? 'bg-pink-200'
+    ? 'bg-red-100'
     : 'bg-gray-200';
 };
 
 export const typeColors = (type: string) => {
   return type === '교통'
-    ? 'bg-sky-200'
+    ? 'bg-sky-100'
     : type === '비행기'
     ? 'bg-sky-200'
     : type === '숙소'
-    ? 'bg-lime-200'
+    ? 'bg-lime-100'
     : type === '식당'
     ? 'bg-amber-200'
     : type === '관광'
-    ? 'bg-purple-200'
+    ? 'bg-purple-100'
     : type === '쇼핑'
     ? 'bg-rose-200'
     : 'bg-slate-200';
